@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">StayInTouchFragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_conversations">Conversations</string>
+    <string name="navigation_contacts">Contacts</string>
+    <string name="navigation_archives">Archives</string>
+    <string name="navigation_profile">Settings</string>
+    <string name="navigation_logout">Logout</string>
+    <string name="navigation_exit">Exit</string>
+
+    <string name="page_title_signup">Stay In Touch (Signup)</string>
+    <string name="page_title_login">Stay In Touch (Login)</string>
+    <string name="page_title_conversations">Conversations</string>
+    <string name="page_title_messages">Messages</string>
+    <string name="page_title_contacts">Contacts</string>
+    <string name="page_title_profile">Edit Profile</string>
+
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_button">Login</string>
+    <string name="create_account_button">Create New Account</string>
+    <string name="fullname_label">Full Name</string>
+    <string name="signup_button">Signup</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="password_conf_label">Confirm Password</string>
+    <string name="phoneLabel">Phone Number</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Closed</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="send_button">Send</string>
+    <string name="text_hint">Enter Message</string>
+    <string name="view_contact">View Contact</string>
+    <string name="call_contact">Call Contact</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

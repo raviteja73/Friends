@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:visibility="visible">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/conversationImage"
+        android:src="@drawable/default_profile"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/contactName"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/conversationImage"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:id="@+id/unreadNotification"
+        android:src="@drawable/red_bubble_clipart_1"
+        android:paddingTop="5dp"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/CallIcon"
+        android:layout_toStartOf="@+id/CallIcon"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:id="@+id/CallIcon"
+        android:src="@drawable/phone_icon_hi"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

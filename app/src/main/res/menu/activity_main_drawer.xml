@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_contacts"
+            android:title="@string/navigation_contacts" />
+        <item
+            android:id="@+id/drawer_conversations"
+            android:title="@string/navigation_conversations" />
+        <item
+            android:id="@+id/drawer_archives"
+            android:title="@string/navigation_archives" />
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="@string/navigation_profile" />
+        <item
+            android:id="@+id/drawer_logout"
+            android:title="@string/navigation_logout" />
+        <item
+            android:id="@+id/drawer_exit"
+            android:title="@string/navigation_exit" />
+    </group>
+
+</menu>
